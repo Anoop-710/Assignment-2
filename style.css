@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Oleo+Script+Swash+Caps&family=Orbitron:wght@500&display=swap');
+*{
+    margin: 0;
+}
+
+:root{
+    --font-color: #6fc4b7;
+}
+
+
+/* Section 1 */
+.section-1{
+    height: 90vh;
+    background-color: #e4f9f6;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section-1 h1{
+    font-size: 55px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: var(--font-color);
+    
+}
+
+.section-1 h2{
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 15px;
+    color: var(--font-color);
+}
+
+.section-1 img{
+    position: absolute;
+    bottom: 10px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+/* section 2 */
+
+.section-2{
+    margin-top: 70px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.section-2 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: var(--font-color);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    
+
+}
+
+.section-2 img{
+    border-radius: 10%;
+}
+
+.section-2 p{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    width: 850px;
+    text-align: center;
+}
+
+
+
+/* Section-3 */
+
+.section-3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .container h1{
+    font-size: 50px;
+    font-family: 'Oleo Script Swash Caps';
+    color: var(--font-color);
+    font-weight: bold;
+}
+
+.section-3 .container .projects{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+.section-3 .container .projects .project{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 20%;
+    
+    /* height: 200px; */
+    /* background-color: var(--font-color); */
+    box-shadow: 0 0 5px;
+}
+
+
+
+
+.section-3 .container .projects .project img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.section-3 .container .projects .project .project-description h3{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.section-3 .container .projects .project .project-description p{
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+
+/* Section-4 */
+.section-4 .container{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.section-4 .container .contact h1{
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: var(--font-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.section-4 .container .contact p{
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+    font-size: 20px;
+    color: var(--font-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-4 .container p{
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+.section-4 .container .contactBtn{
+    font-size: large;
+    /* margin-top: 20px; */
+    background-color: #66ddcb;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    /* text-shadow: 100px ;  */
+    
+}
+
+.section-4 .container .contactBtn:hover{
+    cursor:pointer;
+}
+
+.footer{
+    height: 10vh;
+    background-color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer .profiles a{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    /* background-image: url(""); */
+}
+
+.footer .profiles .profile1 a{
+    background-image: url("");
+}
+
+.footer .profiles .profile2{
+    margin: 100px;
+    padding: 10px;
+}
